@@ -8,7 +8,7 @@ function Navbar() {
         <div class="nav__header">
           <div class="logo nav__logo">
             <div>H</div>
-            <span>HOTEL<br />MIRANDA</span>
+            <span>HOTEL<br />DHAROHAR</span>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>

@@ -9,12 +9,12 @@ function Footer() {
       <div class="footer__col">
         <div class="logo footer__logo">
           <div>H</div>
-          <span>HOTEL<br />MIRANDA</span>
+          <span>HOTEL<br />DHAROHAR</span>
         </div>
         <p class="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-          laudantium unde. Doloremque eaque debitis laborum labore voluptates
-          iste molestiae consectetur.
+        Experience the best of both worlds—a peaceful retreat in the lap of nature with all the amenities of urban living. Ideal for solo travelers, couples, or families, our villa is the ultimate blend of comfort and charm.
+
+Book your stay today and let the mountains be your sanctuary!
         </p>
         <ul class="footer__socials">
           <li>
@@ -56,7 +56,7 @@ function Footer() {
             <span><i class="ri-record-mail-line"></i></span>
             <div>
               <h5>Email</h5>
-              <p>info@hotelmiranda.com</p>
+              <p>info@hotelDHAROHAR.com</p>
             </div>
           </li>
           <li>
