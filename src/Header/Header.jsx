@@ -17,7 +17,7 @@ function Header() {
 
       </div>
       <section className="section__container booking__container d-flex justify-content-center align-items-center vh-100">
-  <form action="/" className="booking__form row g-3 p-4 border rounded bg-white shadow">
+  <form  className="booking__form row g-3 p-4 border rounded bg-white shadow">
     <div className="col-md-4 input__group d-flex align-items-center">
       <span className="me-2"><i className="ri-calendar-2-fill"></i></span>
       <div>
@@ -27,20 +27,13 @@ function Header() {
       
     </div>
     <div className="col-md-4 input__group d-flex align-items-center">
-  <span className="me-2"><i className="ri-calendar-2-fill"></i></span>
+  <span className="me-2"><i className="ri-home-heart-fill"></i></span>
   <div>
-    <label htmlFor="check-in" className="form-label">Start Date: Anytime |</label>
-  
+    <label htmlFor="check-in" className="form-label">Full Amenities</label>
   </div>
 </div>
 
-<div className="col-md-4 input__group d-flex align-items-center">
-  <span className="me-2"><i className="ri-user-fill"></i></span>
-  <div>
-    <label htmlFor="end-date" className="form-label">End Date: Anytime |</label>
-  
-  </div>      
-    </div>
+
     <div className="col-md-4 input__group d-flex align-items-center">
   <span className="me-2"><i className="ri-home-smile-line"></i></span>
   <div>

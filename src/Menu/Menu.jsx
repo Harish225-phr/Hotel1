@@ -71,7 +71,7 @@ function Menu() {
         <img src={menu8} alt="menu" />
         <img src={menu9} alt="menu" />
       </div>
-      <ul className="menu__banner">
+      {/* <ul className="menu__banner">
         <li>
           <span><i className="ri-file-text-line"></i></span>
           <h4>10k</h4>
@@ -92,7 +92,7 @@ function Menu() {
           <h4>900k</h4>
           <p>Ideas Raised Funds</p>
         </li>
-      </ul>
+      </ul> */}
     </div>
   </section>
   

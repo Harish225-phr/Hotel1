@@ -58,7 +58,7 @@ Book your stay today and let the mountains be your sanctuary!
       </div>
     </div>
     <div className="footer__bar">
-      Copyright © 2023 Web Design Mastery. All rights reserved.
+      Copyright © 2025 Him-Tech Solutions. All rights reserved.
     </div>
   </footer>
   </section>
