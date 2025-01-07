@@ -133,34 +133,55 @@ nav {
   color: var(--text-dark);
   cursor: pointer;
 }
-
+/* For large screens (default behavior) */
 .nav__links {
   list-style: none;
-  position: absolute;
-  padding: 2rem;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  background-color: var(--white);
-  transform: translateY(-100%);
-  transition: 0.5s;
-  z-index: -1;
+  display: flex; /* Display links horizontally */
+  flex-direction: row; /* Row layout for large screens */
+  gap: 2rem; /* Space between the links */
+  background-color: transparent; /* Transparent background on large screens */
+  padding: 0; /* No padding */
+  position: static; /* Reset absolute position */
 }
 
-.nav__links.open {
-  transform: translateY(0);
+/* Styles for the mobile menu */
+@media (max-width: 768px) {
+  .nav__links {
+    position: absolute;
+    top: 60px; /* Adjust if needed */
+    left: 0;
+    width: 100%;
+    flex-direction: column; /* Stack links vertically on small screens */
+    align-items: center;
+    background-color: var(--white);
+    transform: translateY(-100%); /* Initially hidden */
+    transition: transform 0.5s ease;
+    z-index: -1;
+  }
+
+  /* When the menu is open, slide it in */
+  .nav__links.open {
+    transform: translateY(0);
+  }
+
+  .nav__menu__btn {
+    display: block;
+    cursor: pointer;
+  }
 }
 
+/* Style for anchor links inside nav */
 .nav__links a {
   color: var(--text-light);
-  transition: 0.3s;
+  transition: color 0.3s ease;
 }
 
+/* Hover effect on anchor links */
 .nav__links a:hover {
   color: var(--secondary-color);
 }
+
+
 
 .header {
   padding-block: 5rem;
@@ -715,14 +736,7 @@ nav {
     display: none;
   }
 
-  .nav__links {
-    width: fit-content;
-    padding: 0;
-    position: static;
-    flex-direction: row;
-    transform: none;
-    background-color: transparent;
-  }
+ 
 
   .booking__container form {
     max-width: 100%;
