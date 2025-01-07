@@ -6,8 +6,8 @@ import Room3 from '../assets/room-3.avif';
 function Room() {
   return (
     <section className="room__container" id="room">
- <p class="section__subheader">OUR ROOM'S</p>
- <h2 class="section__header">The Most Memorable Rest Time Starts Here.</h2>
+ <p className="section__subheader">OUR ROOM'S</p>
+ <h2 className="section__header">The Most Memorable Rest Time Starts Here.</h2>
     <div className="room__grid">
       <div className="room__card">
         <img src={Room1} alt="room" />
