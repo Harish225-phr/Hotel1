@@ -4,14 +4,14 @@ function Navbar() {
   return (
     <>
     <nav>
-        <div class="nav__bar">
-        <div class="nav__header">
-          <div class="logo nav__logo">
-            <div>H</div>
+        <div className="nav__bar">
+        <div className="nav__header">
+          <div className="logo nav__logo">
+            <div>D</div>
             <span>HOTEL<br />DHAROHAR</span>
           </div>
-          <div class="nav__menu__btn" id="menu-btn">
-            <i class="ri-menu-line"></i>
+          <div className="nav__menu__btn" id="menu-btn">
+            <i className="ri-menu-line"></i>
           </div>
         </div>
         <ul class="nav__links" id="nav-links">

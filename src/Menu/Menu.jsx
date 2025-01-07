@@ -74,12 +74,12 @@ function Menu() {
       <ul className="menu__banner">
         <li>
           <span><i className="ri-file-text-line"></i></span>
-          <h4>84k</h4>
+          <h4>10k</h4>
           <p>Projects are Completed</p>
         </li>
         <li>
           <span><i className="ri-user-line"></i></span>
-          <h4>10M</h4>
+          <h4>500k</h4>
           <p>Active Around World</p>
         </li>
         <li>
@@ -89,7 +89,7 @@ function Menu() {
         </li>
         <li>
           <span><i className="ri-lightbulb-flash-line"></i></span>
-          <h4>100M</h4>
+          <h4>900k</h4>
           <p>Ideas Raised Funds</p>
         </li>
       </ul>

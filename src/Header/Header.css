@@ -1,6 +1,6 @@
 /* Header.css */
 .header__container {
-    background-image: url("../assets/header.jpg");
+    background-image: url("../assets/header.avif");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,8 +23,8 @@
     opacity: 0.6;
   }
   
-  .header__container h1 {
-    font-size: 4rem;
+  .header__container h3 {
+    font-size: 3rem;
     font-weight: 500;
     line-height: 4.5rem;
     color: var(--white);
@@ -48,23 +48,25 @@
   .booking__form {
     padding: 2rem;
     display: flex;
+    flex-direction: column; /* Arrange items vertically */
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     background-color: var(--white);
     border-radius: 10px;
     transform: translateY(-50%);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  .input__group {
-    flex: 1 1 220px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-  }
+    width: 100%;
+    max-width: 600px; /* Optional: Set a max-width for better layout */
+}
+.input__group {
+  width: 100%; /* Make input groups take full width */
+  display: flex;
+  flex-direction: column; /* Arrange label and input vertically */
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center; /* Center the text inside */
+}
   
   .input__group span {
     font-size: 1.75rem;
@@ -74,18 +76,22 @@
   .input__group label {
     font-weight: 500;
     color: var(--text-dark);
-  }
+}
   
-  .input__group input {
-    display: block;
-    width: 100%;
-    max-width: 150px;
-    padding-block: 5px;
-    color: var(--text-dark);
-    font-size: 0.9rem;
-    outline: none;
-    border: none;
-  }
+.input__group input {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  padding-block: 5px;
+  padding-inline: 10px;
+  color: var(--text-dark);
+  font-size: 0.9rem;
+  outline: none;
+  border: 1px solid var(--text-light);
+  border-radius: 5px;
+}
+
+
   
   .input__group input::placeholder {
     color: var(--text-light);
@@ -93,3 +99,4 @@
   .booking__container {
     padding-block: 0;
   }
+  

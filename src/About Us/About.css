@@ -3,13 +3,13 @@
     content: "";
     bottom: 0;
     right: 0;
-    height: 75%;
+    height: 73%;
     width: 100%;
-    background-image: url("../assets//about-bg.jpg");
+    background-image: url("../assets//about-bg.avif");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    opacity: 0.05;
+    opacity: 0.25;
     z-index: -1;
   }
   

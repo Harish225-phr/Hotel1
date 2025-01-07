@@ -1,6 +1,6 @@
 import React from 'react';
-import about1 from '../assets/about-1.jpg';
-import about2 from '../assets/about-2.jpg';
+import about1 from '../assets/about-1.avif';
+import about2 from '../assets/about-2.avif';
 import './About.css';
 function About() {
   return (
@@ -12,9 +12,9 @@ function About() {
           </div>
           <div className="about__card">
             <span><i className="ri-user-line"></i></span>
-            <h4>Strong Team</h4>
+            <h4>Dedicated Team</h4>
             <p>
-              Unlocking Hospitality Excellence And Ensures Your Perfect Stay
+            Our dedicated team is committed to providing exceptional hospitality and ensuring a flawless stay from start to finish.
             </p>
           </div>
           <div className="about__image">
@@ -22,18 +22,16 @@ function About() {
           </div>
           <div className="about__card">
             <span><i className="ri-calendar-check-line"></i></span>
-            <h4>Luxury Room</h4>
-            <p>Experience Unrivaled Luxury at Our Exquisite Luxury Rooms</p>
+            <h4>Opulent Rooms</h4>
+            <p>Enjoy unmatched comfort and style in our luxury rooms.</p>
           </div>
         </div>
         <div className="about__content">
           <p className="section__subheader">ABOUT US</p>
-          <h2 className="section__header">Discover Our Underground</h2>
+          <h2 className="section__header">Uncover the Hidden Gem of Manali</h2>
           <p className="section__description">
-            Welcome to a hidden realm of extraordinary accommodations where
-            luxury, comfort, and adventure converge. Our underground hotels
-            offer an unparalleled escape from the ordinary, inviting you to
-            explore a subterranean world of wonders.
+          A picturesque villa(heritage) in the lap of himalyan mountains overlooking 
+          the grandiose Beas river. Surrounded by the senic mountains of manali from all 4 sides.
           </p>
           <button className="btn">Book Now</button>
         </div>

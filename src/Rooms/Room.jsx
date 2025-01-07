@@ -1,12 +1,12 @@
 import React from 'react'
-import Room1 from '../assets/room-1.jpg';
-import Room2 from '../assets/room-2.jpg';
-import Room3 from '../assets/room-3.jpg';
+import Room1 from '../assets/room-1.avif';
+import Room2 from '../assets/room-2.avif';
+import Room3 from '../assets/room-3.avif';
 
 function Room() {
   return (
     <section className="room__container" id="room">
- <p class="section__subheader">OUR LIVING ROOM</p>
+ <p class="section__subheader">OUR ROOM'S</p>
  <h2 class="section__header">The Most Memorable Rest Time Starts Here.</h2>
     <div className="room__grid">
       <div className="room__card">
